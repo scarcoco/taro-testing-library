@@ -43,7 +43,7 @@ export const render = (
   }
   mount(Component)
   return {
-    get component() {
+    component() {
       return component;
     },
     get baseElement() {
